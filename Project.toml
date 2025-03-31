@@ -1,0 +1,16 @@
+name = "ManageLumericalFDTD"
+uuid = "0d0f0d74-6a45-40a1-8117-899ffe85efa2"
+authors = ["Jon Schlipf <schlipf@ihp-microelectronics.com>"]
+version = "0.1.0"
+
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+
+[compat]
+CSV = "0.10.15"
+DataFrames = "1.7.0"
+Pkg = "1.11.0"
+PyCall = "1.96.4"
